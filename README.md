@@ -2,6 +2,29 @@
 
 마켓탭의 Flutter 데모 프로젝트 입니다.
 
+## 데모 프로젝트 테스트 방법
+1. flutter 패키지를 설치합니다
+```bash
+flutter pub get
+```
+
+2. 에뮬레이터나 디바이스를 준비합니다. (아래 명령어를 통해 연결된 디바이스를 확인하세요)
+```bash
+flutter devices
+```
+
+3. 앱을 실행합니다.
+```bash
+flutter run
+```
+
+(선택) iOS의 경우 추가 설정
+```bash
+cd ios
+pod install
+cd ..
+```
+
 ## 상세 연동 가이드
 - 마켓탭이 SDK에서 데이터를 어떻게 처리하는지에 대한 내용은 [여기](https://marketap.gitbook.io/marketap-guide/developer/core-concept/sdk-structure)에서 확인이 가능합니다.
 - 마켓탭으로 이벤트를 전달하기 위한 방법은 [여기](https://marketap.gitbook.io/marketap-guide/developer/core-concept/data/event)에서 확인이 가능합니다.

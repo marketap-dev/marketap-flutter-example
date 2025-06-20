@@ -34,6 +34,11 @@ target 'Runner' do
   target 'RunnerTests' do
     inherit! :search_paths
   end
+
+  target 'NotificationServiceExtension' do
+    inherit! :search_paths
+    pod 'MarketapSDKNotificationServiceExtension', '1.0.9'
+  end
 end
 
 post_install do |installer|

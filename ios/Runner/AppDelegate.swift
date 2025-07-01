@@ -24,13 +24,7 @@ class AppDelegate: FlutterAppDelegate {
         // Marketap 초기화
         Marketap.application(application, didFinishLaunchingWithOptions: launchOptions)
 
-        // Flutter-Native 채널
-        if let controller = window?.rootViewController as? FlutterViewController {
-            channel = FlutterMethodChannel(
-                name: channelName,
-                binaryMessenger: controller.binaryMessenger
-            )
-        }
+        makeFlutterChannel()
 
         return super.application(application, didFinishLaunchingWithOptions: launchOptions)
     }
@@ -41,6 +35,10 @@ class AppDelegate: FlutterAppDelegate {
         _ application: UIApplication,
         didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data
     ) {
+        let tokenParts = deviceToken.map { data in String(format: "%02.2hhx", data) }
+        let token = tokenParts.joined()
+        print("Push Token: \(token)")
+        
         Marketap.setPushToken(token: deviceToken)
         super.application(
             application,
@@ -88,7 +86,17 @@ class AppDelegate: FlutterAppDelegate {
         )
     }
 
-    // MARK: - Deep link -------------------------------------------------------
+    // MARK: - Deep link (optional) -------------------------------------------------------
+
+    func makeFlutterChannel() {
+        // Flutter-Native 채널
+        if let controller = window?.rootViewController as? FlutterViewController {
+            channel = FlutterMethodChannel(
+                name: channelName,
+                binaryMessenger: controller.binaryMessenger
+            )
+        }
+    }
 
     override func application(
         _ app: UIApplication,

@@ -96,7 +96,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		B4B5D1062E042E8F004F81F1 /* Exceptions for "NotificationServiceExtension" folder in "NotificationServiceExtension" target */ = {
+		B4B5D1062E042E8F004F81F1 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -106,18 +106,7 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		B4B5D0FB2E042E8F004F81F1 /* NotificationServiceExtension */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				B4B5D1062E042E8F004F81F1 /* Exceptions for "NotificationServiceExtension" folder in "NotificationServiceExtension" target */,
-			);
-			explicitFileTypes = {
-			};
-			explicitFolders = (
-			);
-			path = NotificationServiceExtension;
-			sourceTree = "<group>";
-		};
+		B4B5D0FB2E042E8F004F81F1 /* NotificationServiceExtension */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (B4B5D1062E042E8F004F81F1 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = NotificationServiceExtension; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */

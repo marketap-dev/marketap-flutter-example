@@ -196,10 +196,10 @@ packages:
     dependency: "direct main"
     description:
       name: marketap_sdk
-      sha256: "0a57eb15fd22e674362e8f97b2879270347e753364dbb12effd0f9a49b5d1388"
+      sha256: d2dda9a272ceef9f56a947e34a4abd19858ac9e1628eca7a2e4d8b415b46315c
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.3"
+    version: "1.1.0-debug"
   matcher:
     dependency: transitive
     description:

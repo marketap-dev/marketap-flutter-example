@@ -61,10 +61,10 @@ PODS:
   - GoogleUtilities/UserDefaults (7.13.3):
     - GoogleUtilities/Logger
     - GoogleUtilities/Privacy
-  - marketap_sdk (1.0.3):
+  - marketap_sdk (1.1.0-debug):
     - Flutter
-    - MarketapSDK (= 1.0.9)
-  - MarketapSDK (1.0.9)
+    - MarketapSDK (= 1.1.2)
+  - MarketapSDK (1.1.2)
   - MarketapSDKNotificationServiceExtension (1.0.9)
   - nanopb (2.30910.0):
     - nanopb/decode (= 2.30910.0)
@@ -121,8 +121,8 @@ SPEC CHECKSUMS:
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
   GoogleDataTransport: 6c09b596d841063d76d4288cc2d2f42cc36e1e2a
   GoogleUtilities: ea963c370a38a8069cc5f7ba4ca849a60b6d7d15
-  marketap_sdk: d89f02aef84cf4a821efc230e8b043444fecc155
-  MarketapSDK: 66244898a6e448ea9debb9d6a67ea8a3aab86281
+  marketap_sdk: 4636f3bc0087805779706773f5fdf92dd6f44ce7
+  MarketapSDK: 93a11460c3e04ec779dd971d3318c2e454315dfe
   MarketapSDKNotificationServiceExtension: 8acd2f9e44da6ba3ad5646c7247654615727e3ae
   nanopb: 438bc412db1928dac798aa6fd75726007be04262
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47

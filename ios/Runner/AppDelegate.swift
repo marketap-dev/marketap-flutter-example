@@ -22,6 +22,7 @@ class AppDelegate: FlutterAppDelegate {
         UNUserNotificationCenter.current().delegate = self
 
         // Marketap 초기화
+        Marketap.setLogLevel(.verbose)
         Marketap.application(application, didFinishLaunchingWithOptions: launchOptions)
 
         makeFlutterChannel()

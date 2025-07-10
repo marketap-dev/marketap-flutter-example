@@ -2,9 +2,10 @@ import 'dart:io' show Platform;
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
+import 'package:marketap_flutter_example/app.dart';
 import 'package:marketap_sdk/marketap_sdk.dart';
 import 'config.dart';
-import 'deeplink.dart'; // 기존 파일 유지
+import 'deeplink.dart';
 
 Future<void> _bgHandler(RemoteMessage msg) async {
   await Firebase.initializeApp();

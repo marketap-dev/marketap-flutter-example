@@ -36,7 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   firebase_core: ^2.30.0
   firebase_messaging: ^14.7.0
-  marketap_sdk: ^1.0.3
+  marketap_sdk: 1.1.0-debug
   shared_preferences: ^2.5.3
 
 dev_dependencies:
